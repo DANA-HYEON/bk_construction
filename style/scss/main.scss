@@ -411,3 +411,168 @@ body {
         }
     }
 }
+
+@media (max-width: 820px) {
+    .bk__header-wrap {
+        &.on {
+            .bk__header-inner {
+                .bk__nav-wrap {
+                    .bk__nav {
+                        .bk__nav-menu {
+                            > a {
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .bk__header-inner {
+            .bk__header-logo {
+                a {
+                    img {
+                    }
+                }
+            }
+            .bk__nav-wrap {
+                display: none;
+                .bk__nav {
+                    .bk__nav-menu {
+                        > a {
+                            &:hover {
+                            }
+                        }
+                    }
+                    .bk__nav__list {
+                        .bk__nav__list-text {
+                            > a {
+                                &::before {
+                                }
+                                &:hover {
+                                    &::before {
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .bk__nav__block-wrap {
+        }
+    }
+
+    .bk__main-wrap {
+        .bk__main-contents {
+            .swiper {
+                .swiper-wrapper {
+                    .swiper__text-wrap {
+                        .swiper__text-title {
+                        }
+                        .swiper__text-content {
+                            &.sub-title {
+                                &::before {
+                                }
+                            }
+                        }
+                    }
+                    .swiper-slide {
+                        opacity: 0.8;
+
+                        &.bg1 {
+                        }
+                        &.bg2 {
+                        }
+                        &.bg3 {
+                        }
+                    }
+                }
+                .swiper-button-next {
+                }
+                .swiper-button-prev {
+                }
+            }
+            .swiper-container {
+                .project-wrap {
+                    .project-img {
+                        &.bg--1 {
+                        }
+                        .project-img--info {
+                            .project-img--title {
+                            }
+                            .project-img--text {
+                            }
+                            .project-img--btn {
+                            }
+                        }
+                    }
+                }
+            }
+            .bk__contents {
+                &:last-child {
+                }
+                .bk__contents-inner {
+                    &.bk__contents-inner--news {
+                    }
+                    .bk__contents-header {
+                        .contents__header-title {
+                            .contents__header-subtitle {
+                            }
+                        }
+                        .contents__header-more {
+                            &:hover {
+                            }
+                        }
+                    }
+                }
+                .bk__contents-cover {
+                    .bk__contents--title {
+                    }
+                    .bk__contents--text {
+                    }
+                    .bk__contents--icons {
+                        .icons-wrap {
+                            .icon {
+                                &.icon--1 {
+                                }
+                            }
+                        }
+                    }
+
+                    .project-wrap {
+                        .project-img {
+                        }
+                    }
+                }
+            }
+            .bk__contents--bgGray {
+                .bk__news-wrap {
+                    .bk__news--img {
+                        &.img--1 {
+                        }
+                    }
+                    .bk__news__text-wrap {
+                        .bk__news-title {
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .bk__footer-wrap {
+        .bk__footer-inner {
+            .bk__header-logo {
+                > a {
+                    img {
+                    }
+                }
+            }
+            .bk__footer-contents {
+                .bk__footer-text {
+                    &:first-child {
+                    }
+                }
+            }
+        }
+    }
+}
